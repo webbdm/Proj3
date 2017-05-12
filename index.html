@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Proj3</title>
+    <link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body ng-app="Proj3">
+    <div ng-controller="AnimalCtrl">
+        <div ng-repeat="animal in animals">
+            <h1>{{animal.name}}</h1>
+        </div>
+    </div>
+    <script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="./lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="./lib/bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="./javascript/main.js"></script>
+</body>
+
+</html>
